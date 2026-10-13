@@ -12,3 +12,16 @@ body { margin: 0; font-family: system-ui, sans-serif; background: #f5f6fa; color
 .btn-primary { background: #3d6ee0; }
 .btn-danger { background: #d64545; }
 .btn:hover { opacity: 0.9; }
+.fav-count { background: #fff; color: #2b3a67; padding: 4px 10px; border-radius: 999px; font-weight: 600; font-size: 0.9rem; }
+.search { width: 100%; padding: 10px 12px; font-size: 1rem; border: 1px solid #c5cbe0; border-radius: 6px; margin: 12px 0 20px; }
+.user-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.user-card { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.user-card h3 { margin: 0 0 6px; }
+.user-card p { margin: 4px 0; }
+.muted { color: #6b7080; }
+.card-actions { display: flex; justify-content: space-between; align-items: center; margin-top: 12px; gap: 8px; }
+.card-actions a { color: #3d6ee0; }
+.fav-btn { background: #fff; border: 1px solid #c5cbe0; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+.fav-btn.is-fav { background: #fff4d6; border-color: #e0b84a; }
+.loader { font-style: italic; color: #6b7080; }
+.error-message { background: #fde8e8; color: #9b1c1c; padding: 12px; border-radius: 6px; }
