@@ -41,3 +41,14 @@ body { margin: 0; font-family: system-ui, sans-serif; background: #f5f6fa; color
 .dark .card-actions a, .dark .back-link { color: #7fa6ff; }
 .dark .error-message { background: #3d1f1f; color: #ffb4b4; }
 .dark .fav-count { background: #e6e8f0; color: #0b0d14; }
+
+/* Home page: centered card layout */
+.home { display: flex; justify-content: center; padding: 32px 0; }
+.home-card { background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 40px 32px; text-align: center; max-width: 520px; width: 100%; }
+.home-title { font-size: 2.2rem; margin: 0 0 12px; color: #2b3a67; }
+.home-text { color: #6b7080; font-size: 1.05rem; margin: 0 0 24px; line-height: 1.5; }
+.home-action { display: flex; justify-content: center; }
+.home-action .button-wrap { margin: 0; }
+.dark .home-card { background: #222633; box-shadow: none; }
+.dark .home-title { color: #e6e8f0; }
+.dark .home-text { color: #9aa0b4; }
