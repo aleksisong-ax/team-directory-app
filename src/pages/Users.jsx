@@ -23,6 +23,10 @@ export default function Users({ favorites, onToggleFavorite, onClearFavorites })
     user.name.toLowerCase().includes(search.trim().toLowerCase()),
   )
 
+  useEffect(() => {
+    document.title = `Users (${filteredUsers.length})`
+  }, [filteredUsers.length])
+
   return (
     <section>
       <h1>Users</h1>

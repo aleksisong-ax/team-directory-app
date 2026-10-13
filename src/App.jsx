@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound.jsx'
 
 export default function App() {
   const [favorites, setFavorites] = useState([])
+  const [darkMode, setDarkMode] = useState(false)
 
   const toggleFavorite = (id) => {
     setFavorites((prev) =>
@@ -17,8 +18,12 @@ export default function App() {
   }
 
   return (
-    <div className="app">
-      <Navbar favoritesCount={favorites.length} />
+    <div className={`app ${darkMode ? 'dark' : ''}`}>
+      <Navbar
+        favoritesCount={favorites.length}
+        darkMode={darkMode}
+        onToggleDarkMode={() => setDarkMode((prev) => !prev)}
+      />
       <main className="container">
         <Routes>
           <Route path="/" element={<Home />} />

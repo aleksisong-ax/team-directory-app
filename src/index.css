@@ -25,3 +25,18 @@ body { margin: 0; font-family: system-ui, sans-serif; background: #f5f6fa; color
 .fav-btn.is-fav { background: #fff4d6; border-color: #e0b84a; }
 .loader { font-style: italic; color: #6b7080; }
 .error-message { background: #fde8e8; color: #9b1c1c; padding: 12px; border-radius: 6px; }
+.app { min-height: 100vh; }
+.theme-btn { background: transparent; color: #fff; border: 1px solid #fff; border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+.back-link { color: #3d6ee0; display: inline-block; margin-bottom: 16px; }
+.details-card { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.details-card p { margin: 8px 0; }
+.app.dark { background: #15171f; color: #e6e8f0; }
+.dark .navbar { background: #0b0d14; }
+.dark .user-card, .dark .details-card { background: #222633; box-shadow: none; }
+.dark .muted { color: #9aa0b4; }
+.dark .search { background: #222633; color: #e6e8f0; border-color: #3a4054; }
+.dark .fav-btn { background: #2b3040; color: #e6e8f0; border-color: #3a4054; }
+.dark .fav-btn.is-fav { background: #4a3f1c; border-color: #b8923a; }
+.dark .card-actions a, .dark .back-link { color: #7fa6ff; }
+.dark .error-message { background: #3d1f1f; color: #ffb4b4; }
+.dark .fav-count { background: #e6e8f0; color: #0b0d14; }
