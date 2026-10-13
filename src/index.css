@@ -1,3 +1,4 @@
+/* Global styles for the whole app. Each section below styles one part of the UI. */
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; background: #f5f6fa; color: #1d1f27; }
 .navbar { display: flex; justify-content: space-between; align-items: center; padding: 12px 24px; background: #2b3a67; color: #fff; flex-wrap: wrap; gap: 12px; }

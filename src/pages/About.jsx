@@ -1,3 +1,4 @@
+// Simple About page with a short description of the app
 export default function About() {
   return (
     <section>

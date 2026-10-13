@@ -1,3 +1,4 @@
+// Sample user data. In a real app this would come from a server.
 export const USERS = [
   { id: 1, name: 'Ana Reyes', email: 'ana.reyes@example.com', company: 'Acme Corp', role: 'Frontend Engineer' },
   { id: 2, name: 'Ben Santos', email: 'ben.santos@example.com', company: 'Globex', role: 'Backend Engineer' },
